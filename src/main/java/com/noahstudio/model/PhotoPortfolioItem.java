@@ -1,6 +1,11 @@
 package com.noahstudio.model;
 
 /**
+ * PhotoPortfolioItem - Image-based portfolio entries.
+ * Author: Dulansad (IT25100528)
+ */
+
+/**
  * PhotoPortfolioItem — Subclass for photography portfolio entries.
  * Demonstrates OOP Inheritance and Polymorphism.
  */

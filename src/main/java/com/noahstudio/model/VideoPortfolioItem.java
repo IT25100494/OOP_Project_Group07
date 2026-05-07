@@ -1,6 +1,11 @@
 package com.noahstudio.model;
 
 /**
+ * VideoPortfolioItem - Cinematography portfolio entries.
+ * Author: Dulansad (IT25100528)
+ */
+
+/**
  * VideoPortfolioItem — Subclass for videography portfolio entries.
  * Demonstrates OOP Inheritance and Polymorphism.
  */
