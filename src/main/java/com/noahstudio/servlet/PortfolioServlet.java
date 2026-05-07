@@ -1,10 +1,5 @@
 package com.noahstudio.servlet;
 
-/**
- * PortfolioServlet - Core controller for gallery management.
- * Author: Dulansad (IT25100528)
- */
-
 import com.noahstudio.model.PortfolioItem;
 import com.noahstudio.model.PhotoPortfolioItem;
 import com.noahstudio.model.VideoPortfolioItem;
