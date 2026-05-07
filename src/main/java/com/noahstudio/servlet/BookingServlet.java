@@ -134,6 +134,7 @@ public class BookingServlet extends HttpServlet {
                 if (req.getParameter("clientContact") != null) b.setClientContact(req.getParameter("clientContact"));
                 
                 FileHandler.updateById(BOOKINGS_FILE, id, b.toFileString());
+                System.out.println("[BookingSystem] Status updated for ID: " + id + " to " + b.getStatus());
             }
         }
         
