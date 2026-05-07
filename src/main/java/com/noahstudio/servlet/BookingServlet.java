@@ -9,6 +9,10 @@ import java.io.*;
 import java.time.LocalDate;
 import java.util.*;
 
+/**
+ * BookingServlet — core controller for the event booking module.
+ * Author: IT25100538
+ */
 public class BookingServlet extends HttpServlet {
     private static final String BOOKINGS_FILE = "bookings.txt";
 
