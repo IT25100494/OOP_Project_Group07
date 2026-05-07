@@ -1,16 +1,6 @@
 package com.noahstudio.model;
 
 /**
- * PortfolioItem - Base class for polymorphic gallery items.
- * Author: Dulansad (IT25100528)
- */
-
-/**
- * PortfolioItem - Base class for polymorphic gallery items.
- * Author: Dulansad (IT25100528)
- */
-
-/**
  * PortfolioItem — Abstract base class for all portfolio entries.
  * Demonstrates OOP Encapsulation (private fields, public getters/setters) 
  * and Polymorphism (abstract renderPreviewHTML method).
