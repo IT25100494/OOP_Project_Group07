@@ -3,7 +3,6 @@ package com.noahstudio.model;
 /**
  * Booking model — encapsulates a client's service booking.
  * Status lifecycle: Pending → Confirmed → Completed / Cancelled
- * Author: IT25100538
  */
 public class Booking {
 

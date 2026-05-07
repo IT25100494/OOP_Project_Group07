@@ -9,10 +9,6 @@ import java.io.*;
 import java.time.LocalDate;
 import java.util.*;
 
-/**
- * BookingServlet — core controller for the event booking module.
- * Author: IT25100538
- */
 public class BookingServlet extends HttpServlet {
     private static final String BOOKINGS_FILE = "bookings.txt";
 
@@ -134,7 +130,6 @@ public class BookingServlet extends HttpServlet {
                 if (req.getParameter("clientContact") != null) b.setClientContact(req.getParameter("clientContact"));
                 
                 FileHandler.updateById(BOOKINGS_FILE, id, b.toFileString());
-                System.out.println("[BookingSystem] Status updated for ID: " + id + " to " + b.getStatus());
             }
         }
         

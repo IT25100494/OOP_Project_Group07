@@ -1,5 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%-- Author: IT25100538 --%>
 <%@ page import="com.noahstudio.model.User, com.noahstudio.util.FileHandler" %>
 <%
     HttpSession sess = request.getSession(false);
