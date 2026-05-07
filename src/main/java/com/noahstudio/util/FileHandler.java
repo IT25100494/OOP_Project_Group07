@@ -9,6 +9,10 @@ import java.util.*;
  * All data files are stored in the /data/ directory relative to the web-app root.
  * Uses BufferedReader / FileWriter for efficient I/O.
  */
+/**
+ * FileHandler - Utility class for data persistence.
+ * Updated for Portfolio module by Dulansad.
+ */
 public class FileHandler {
 
     // ── Resolved data directory (set once at startup via init()) ─────────────
