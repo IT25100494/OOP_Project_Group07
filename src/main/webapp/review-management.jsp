@@ -1,3 +1,4 @@
+<%-- Feedback and Review Management Module - Owned by IT25100494 --%>
 <%@ page import="com.noahstudio.model.*, com.noahstudio.util.FileHandler, java.util.*" %>
 <%
     List<Review> reviews = (List<Review>) request.getAttribute("reviews");
